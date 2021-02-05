@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21782D290F2CDB84F5812D31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		21782D290F2CDB84F5812D31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		557FC3804033D2BD3F83138C /* Pods-Sunwing_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunwing_Example.debug.xcconfig"; path = "Target Support Files/Pods-Sunwing_Example/Pods-Sunwing_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5AC75A334D7F8EA9665526C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5AC75A334D7F8EA9665526C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Sunwing_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunwing_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		76DD7B12A14D0511BA9F8EB9 /* Pods_Sunwing_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunwing_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FF0D59B1587FC8D2A1619B /* Pods_Sunwing_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunwing_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB8A4DAB62AA1E4EB2A9372 /* Pods-Sunwing_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunwing_Example.release.xcconfig"; path = "Target Support Files/Pods-Sunwing_Example/Pods-Sunwing_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AEA3863DA5C97EA2DC5D43E6 /* Sunwing.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Sunwing.podspec; path = ../Sunwing.podspec; sourceTree = "<group>"; };
+		AEA3863DA5C97EA2DC5D43E6 /* Sunwing.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Sunwing.podspec; path = ../Sunwing.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EC0C4A0D5467363F16A26749 /* Pods-Sunwing_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunwing_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Sunwing_Tests/Pods-Sunwing_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F507C9EBC485C7600A5627F6 /* Pods-Sunwing_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunwing_Tests.release.xcconfig"; path = "Target Support Files/Pods-Sunwing_Tests/Pods-Sunwing_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				EC0C4A0D5467363F16A26749 /* Pods-Sunwing_Tests.debug.xcconfig */,
 				F507C9EBC485C7600A5627F6 /* Pods-Sunwing_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,10 +269,18 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Sunwing_Example/Pods-Sunwing_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/Sunwing/Sunwing.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sunwing.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
