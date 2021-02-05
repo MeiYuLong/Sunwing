@@ -7,9 +7,8 @@
 
 import Foundation
 
-public struct SWCore {
-    
-   public static func startCore() {
+struct SWCore {
+    static func startCore() {
         print("startCore")
     }
     
