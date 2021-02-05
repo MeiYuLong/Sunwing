@@ -11,4 +11,8 @@ struct SWCore {
     static func startCore() {
         print("startCore")
     }
+    
+    static func StopCore() {
+        print("StopCore")
+    }
 }
