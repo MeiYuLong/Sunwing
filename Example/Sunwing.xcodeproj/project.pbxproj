@@ -42,11 +42,11 @@
 		696B5A47EA3E47C61C8ABBF1 /* Pods-Sunwing_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunwing_Example.release.xcconfig"; path = "Target Support Files/Pods-Sunwing_Example/Pods-Sunwing_Example.release.xcconfig"; sourceTree = "<group>"; };
 		947F91877C9CC7B2A6FF5FDA /* Pods-Sunwing_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunwing_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Sunwing_Tests/Pods-Sunwing_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC9DA05C0852BF4BB84C7185 /* Pods-Sunwing_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunwing_Example.debug.xcconfig"; path = "Target Support Files/Pods-Sunwing_Example/Pods-Sunwing_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BE5B5312ADDA00553792A0A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BE5B5312ADDA00553792A0A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C38AEC88079D830695A0BFE1 /* Pods_Sunwing_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunwing_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DC85F581DACDADF470E1E0 /* Pods-Sunwing_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunwing_Tests.release.xcconfig"; path = "Target Support Files/Pods-Sunwing_Tests/Pods-Sunwing_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C9B00ADDACC462FA290720EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DD71115A907A5BF513ECDEEF /* Sunwing.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Sunwing.podspec; path = ../Sunwing.podspec; sourceTree = "<group>"; };
+		C9B00ADDACC462FA290720EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DD71115A907A5BF513ECDEEF /* Sunwing.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Sunwing.podspec; path = ../Sunwing.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				947F91877C9CC7B2A6FF5FDA /* Pods-Sunwing_Tests.debug.xcconfig */,
 				C3DC85F581DACDADF470E1E0 /* Pods-Sunwing_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

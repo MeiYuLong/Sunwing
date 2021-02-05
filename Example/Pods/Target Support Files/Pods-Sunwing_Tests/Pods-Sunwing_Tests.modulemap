@@ -1,0 +1,6 @@
+framework module Pods_Sunwing_Tests {
+  umbrella header "Pods-Sunwing_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

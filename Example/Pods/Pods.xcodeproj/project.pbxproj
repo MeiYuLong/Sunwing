@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EE0CF2F2ACCABC8E58C0C56A554EA61 /* SWClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAA18BB10F3498C7764BE5423EEDDC1 /* SWClass.swift */; };
+		35221CD1B1DE050D399391168D8DE278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		372A360D22124ECF8916CE2FCE194E3F /* Sunwing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB68A07109E6FE956DFCA3B1121DD09C /* Sunwing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37A29C88D35E4A4879ABF3F3253B1631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		503102138A5B3E0AEC38EF9C8DB45C4B /* Pods-Sunwing_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A3154B4D8D228D5C1B2F6869BAEE26 /* Pods-Sunwing_Tests-dummy.m */; };
+		6050034D8367325BE10845EFF37CC2E9 /* Pods-Sunwing_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB15E4A4E204E25E4F108932197A4DD6 /* Pods-Sunwing_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72AA79715B846AA1451AAB361E728FA9 /* Sunwing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F13CC5F6936E6022DADE25FD8027A3 /* Sunwing-dummy.m */; };
+		9482E0B88AA9D05AE9649A09FB33995F /* Pods-Sunwing_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A573AF14A4FBF43CFD2D1CAC131415 /* Pods-Sunwing_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A280AF7FBDAEF31AADAC6DE3D6420280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B20B38B61C870986C9955DC7299E6B95 /* Pods-Sunwing_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AACD119758209C0B9DEC07852CDB5E81 /* Pods-Sunwing_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42B5CEB54BCBBFBA4444E7F196D22B0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1082CD1189B1E6BD979D41ACD3BF60C3;
+			remoteInfo = Sunwing;
+		};
+		97D6C17A5D3FC8FF1115967817F250AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D9B896A6D1CF7CF479FEAE4A327FB69;
+			remoteInfo = "Pods-Sunwing_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16BC458D350708D6547DEE1EDA85ED3A /* Pods-Sunwing_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sunwing_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1AA305A8EEF97DA7138E074C470B135E /* Pods-Sunwing_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sunwing_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1DC7F3F16004FBDEF9779586030F9650 /* Pods-Sunwing_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sunwing_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		30DA3B597842DFE2C53CA45239DF7444 /* Sunwing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Sunwing.framework; path = Sunwing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAA18BB10F3498C7764BE5423EEDDC1 /* SWClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWClass.swift; path = Sunwing/Classes/SWClass.swift; sourceTree = "<group>"; };
+		4469EB224A66E1967989B5265F5089BE /* Sunwing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Sunwing.modulemap; sourceTree = "<group>"; };
+		56F80C4A0D9B841D6DEFF1267A1F5B4F /* Pods-Sunwing_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sunwing_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5AAD9371C94565AF94930D24DC61862C /* Pods-Sunwing_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sunwing_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5B539AA57DE24AD06907659B65798EF4 /* Pods-Sunwing_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sunwing_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5F8D00D126AE4CF2649D2C04F8B15C03 /* Sunwing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sunwing.debug.xcconfig; sourceTree = "<group>"; };
+		61982D329EE87B86ED8DE33B0A38FC30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		70A60C09A4599EA4D1FB914C4275A72F /* Pods-Sunwing_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sunwing_Tests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		784FB2BB8349D4EDC29FD5592E70DB3C /* Sunwing-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Sunwing-Info.plist"; sourceTree = "<group>"; };
+		7A1A75D196C25EFA9A5AE33443E94667 /* Sunwing.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Sunwing.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7BA158083B511F69FD523B3F9E8A57A3 /* Pods-Sunwing_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sunwing_Example-Info.plist"; sourceTree = "<group>"; };
+		8D99E725125EF73A348DEBDC166FDC87 /* Pods_Sunwing_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sunwing_Tests.framework; path = "Pods-Sunwing_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC470F705395D2EE2FAE53C235290CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A39B4F833E2DEB387800F31E1E477DD2 /* Pods-Sunwing_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sunwing_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3ACE7633E32EE84469CFC1BF77BE59C /* Sunwing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sunwing.release.xcconfig; sourceTree = "<group>"; };
+		AACD119758209C0B9DEC07852CDB5E81 /* Pods-Sunwing_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sunwing_Example-dummy.m"; sourceTree = "<group>"; };
+		AB15E4A4E204E25E4F108932197A4DD6 /* Pods-Sunwing_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sunwing_Example-umbrella.h"; sourceTree = "<group>"; };
+		B60D996C5563365CBE2BFEB048A8D97C /* Pods-Sunwing_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sunwing_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6FC631BF8B6E8B7FB65417D958D3702 /* Sunwing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sunwing-prefix.pch"; sourceTree = "<group>"; };
+		C7F13CC5F6936E6022DADE25FD8027A3 /* Sunwing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sunwing-dummy.m"; sourceTree = "<group>"; };
+		D3A3154B4D8D228D5C1B2F6869BAEE26 /* Pods-Sunwing_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sunwing_Tests-dummy.m"; sourceTree = "<group>"; };
+		DB68A07109E6FE956DFCA3B1121DD09C /* Sunwing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sunwing-umbrella.h"; sourceTree = "<group>"; };
+		DBA729E479F980BBEDD501321D1406EE /* Pods_Sunwing_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sunwing_Example.framework; path = "Pods-Sunwing_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40E17F32C7181EFDD7936C741C27771 /* Pods-Sunwing_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sunwing_Example.modulemap"; sourceTree = "<group>"; };
+		EAC26C2214AC01CBDF2CD6DC2380572F /* Pods-Sunwing_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sunwing_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F4A573AF14A4FBF43CFD2D1CAC131415 /* Pods-Sunwing_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sunwing_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F5D36630C5D6D32824231BB5A5AFC51A /* Pods-Sunwing_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sunwing_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219D827CA216CE9AD6D115930B494E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A29C88D35E4A4879ABF3F3253B1631 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3B335BDD990BB5C14A9259448B4225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35221CD1B1DE050D399391168D8DE278 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFED30D782387484A811FD79599FA4B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A280AF7FBDAEF31AADAC6DE3D6420280 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27332E05B7077133379863A5852CE4E2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				61982D329EE87B86ED8DE33B0A38FC30 /* LICENSE */,
+				9FC470F705395D2EE2FAE53C235290CF /* README.md */,
+				7A1A75D196C25EFA9A5AE33443E94667 /* Sunwing.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2CA71A47B0D05246D6CEEE0216FD7223 /* Sunwing */ = {
+			isa = PBXGroup;
+			children = (
+				3BAA18BB10F3498C7764BE5423EEDDC1 /* SWClass.swift */,
+				27332E05B7077133379863A5852CE4E2 /* Pod */,
+				556BAAFA2CE8A76083AAD3F55E97F616 /* Support Files */,
+			);
+			name = Sunwing;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4E19299AC5E21AF4FBAEEF0625D814AC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7E6A4B17B6EFBA5433B2583ED63031E /* Pods-Sunwing_Example */,
+				FF08D616AE80530C484A34ECDEED3260 /* Pods-Sunwing_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		556BAAFA2CE8A76083AAD3F55E97F616 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4469EB224A66E1967989B5265F5089BE /* Sunwing.modulemap */,
+				C7F13CC5F6936E6022DADE25FD8027A3 /* Sunwing-dummy.m */,
+				784FB2BB8349D4EDC29FD5592E70DB3C /* Sunwing-Info.plist */,
+				B6FC631BF8B6E8B7FB65417D958D3702 /* Sunwing-prefix.pch */,
+				DB68A07109E6FE956DFCA3B1121DD09C /* Sunwing-umbrella.h */,
+				5F8D00D126AE4CF2649D2C04F8B15C03 /* Sunwing.debug.xcconfig */,
+				A3ACE7633E32EE84469CFC1BF77BE59C /* Sunwing.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Sunwing";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		767E2CF377EF5C44B0FBE91574408981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBA729E479F980BBEDD501321D1406EE /* Pods_Sunwing_Example.framework */,
+				8D99E725125EF73A348DEBDC166FDC87 /* Pods_Sunwing_Tests.framework */,
+				30DA3B597842DFE2C53CA45239DF7444 /* Sunwing.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E433CFF25BA1D38C010F8C48586CDE2D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				767E2CF377EF5C44B0FBE91574408981 /* Products */,
+				4E19299AC5E21AF4FBAEEF0625D814AC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E433CFF25BA1D38C010F8C48586CDE2D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CA71A47B0D05246D6CEEE0216FD7223 /* Sunwing */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F7E6A4B17B6EFBA5433B2583ED63031E /* Pods-Sunwing_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E40E17F32C7181EFDD7936C741C27771 /* Pods-Sunwing_Example.modulemap */,
+				16BC458D350708D6547DEE1EDA85ED3A /* Pods-Sunwing_Example-acknowledgements.markdown */,
+				1DC7F3F16004FBDEF9779586030F9650 /* Pods-Sunwing_Example-acknowledgements.plist */,
+				AACD119758209C0B9DEC07852CDB5E81 /* Pods-Sunwing_Example-dummy.m */,
+				EAC26C2214AC01CBDF2CD6DC2380572F /* Pods-Sunwing_Example-frameworks.sh */,
+				7BA158083B511F69FD523B3F9E8A57A3 /* Pods-Sunwing_Example-Info.plist */,
+				AB15E4A4E204E25E4F108932197A4DD6 /* Pods-Sunwing_Example-umbrella.h */,
+				5AAD9371C94565AF94930D24DC61862C /* Pods-Sunwing_Example.debug.xcconfig */,
+				5B539AA57DE24AD06907659B65798EF4 /* Pods-Sunwing_Example.release.xcconfig */,
+			);
+			name = "Pods-Sunwing_Example";
+			path = "Target Support Files/Pods-Sunwing_Example";
+			sourceTree = "<group>";
+		};
+		FF08D616AE80530C484A34ECDEED3260 /* Pods-Sunwing_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				70A60C09A4599EA4D1FB914C4275A72F /* Pods-Sunwing_Tests.modulemap */,
+				1AA305A8EEF97DA7138E074C470B135E /* Pods-Sunwing_Tests-acknowledgements.markdown */,
+				A39B4F833E2DEB387800F31E1E477DD2 /* Pods-Sunwing_Tests-acknowledgements.plist */,
+				D3A3154B4D8D228D5C1B2F6869BAEE26 /* Pods-Sunwing_Tests-dummy.m */,
+				F5D36630C5D6D32824231BB5A5AFC51A /* Pods-Sunwing_Tests-Info.plist */,
+				F4A573AF14A4FBF43CFD2D1CAC131415 /* Pods-Sunwing_Tests-umbrella.h */,
+				B60D996C5563365CBE2BFEB048A8D97C /* Pods-Sunwing_Tests.debug.xcconfig */,
+				56F80C4A0D9B841D6DEFF1267A1F5B4F /* Pods-Sunwing_Tests.release.xcconfig */,
+			);
+			name = "Pods-Sunwing_Tests";
+			path = "Target Support Files/Pods-Sunwing_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		406BC37FBF7E57BB4090B5CB20067876 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6050034D8367325BE10845EFF37CC2E9 /* Pods-Sunwing_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE68A3073D2094CC2CE24AF99DBD7B1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9482E0B88AA9D05AE9649A09FB33995F /* Pods-Sunwing_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CE234F54517B65B3311C5F7299BCC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372A360D22124ECF8916CE2FCE194E3F /* Sunwing-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1082CD1189B1E6BD979D41ACD3BF60C3 /* Sunwing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B34CB6803CA88E8562D5A7D3477E17B /* Build configuration list for PBXNativeTarget "Sunwing" */;
+			buildPhases = (
+				F5CE234F54517B65B3311C5F7299BCC1 /* Headers */,
+				5DA8B48C32E50536B412E10FE161547D /* Sources */,
+				8A3B335BDD990BB5C14A9259448B4225 /* Frameworks */,
+				8276AD264973FC6D59F19ED9710E4D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sunwing;
+			productName = Sunwing;
+			productReference = 30DA3B597842DFE2C53CA45239DF7444 /* Sunwing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D9B896A6D1CF7CF479FEAE4A327FB69 /* Pods-Sunwing_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D869A3D2F25C9ED5FEAA0D50AAA3BE35 /* Build configuration list for PBXNativeTarget "Pods-Sunwing_Example" */;
+			buildPhases = (
+				406BC37FBF7E57BB4090B5CB20067876 /* Headers */,
+				F3A1634729566DC052A3E9599B9F3103 /* Sources */,
+				AFED30D782387484A811FD79599FA4B3 /* Frameworks */,
+				C6C83E4D8CA7C8D1B670DF744D9DD753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82938A0E2A2FBF527DD84E7E834D0323 /* PBXTargetDependency */,
+			);
+			name = "Pods-Sunwing_Example";
+			productName = "Pods-Sunwing_Example";
+			productReference = DBA729E479F980BBEDD501321D1406EE /* Pods_Sunwing_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4FAFB0059ADF28EF501415DAB792A63 /* Pods-Sunwing_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8461EFBF50E8EA98FBBE8525DA589858 /* Build configuration list for PBXNativeTarget "Pods-Sunwing_Tests" */;
+			buildPhases = (
+				EE68A3073D2094CC2CE24AF99DBD7B1F /* Headers */,
+				E0EE2E779219A77D2A1B9C6ADC582910 /* Sources */,
+				219D827CA216CE9AD6D115930B494E4D /* Frameworks */,
+				13BC9430C039F7F46ECF14C078F210E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				647F516EF4CBF3F82B361F3FA5BD0BF8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Sunwing_Tests";
+			productName = "Pods-Sunwing_Tests";
+			productReference = 8D99E725125EF73A348DEBDC166FDC87 /* Pods_Sunwing_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 767E2CF377EF5C44B0FBE91574408981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D9B896A6D1CF7CF479FEAE4A327FB69 /* Pods-Sunwing_Example */,
+				B4FAFB0059ADF28EF501415DAB792A63 /* Pods-Sunwing_Tests */,
+				1082CD1189B1E6BD979D41ACD3BF60C3 /* Sunwing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13BC9430C039F7F46ECF14C078F210E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276AD264973FC6D59F19ED9710E4D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C83E4D8CA7C8D1B670DF744D9DD753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DA8B48C32E50536B412E10FE161547D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AA79715B846AA1451AAB361E728FA9 /* Sunwing-dummy.m in Sources */,
+				1EE0CF2F2ACCABC8E58C0C56A554EA61 /* SWClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0EE2E779219A77D2A1B9C6ADC582910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503102138A5B3E0AEC38EF9C8DB45C4B /* Pods-Sunwing_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A1634729566DC052A3E9599B9F3103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20B38B61C870986C9955DC7299E6B95 /* Pods-Sunwing_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		647F516EF4CBF3F82B361F3FA5BD0BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Sunwing_Example";
+			target = 3D9B896A6D1CF7CF479FEAE4A327FB69 /* Pods-Sunwing_Example */;
+			targetProxy = 97D6C17A5D3FC8FF1115967817F250AD /* PBXContainerItemProxy */;
+		};
+		82938A0E2A2FBF527DD84E7E834D0323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sunwing;
+			target = 1082CD1189B1E6BD979D41ACD3BF60C3 /* Sunwing */;
+			targetProxy = 42B5CEB54BCBBFBA4444E7F196D22B0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4B7D910EA0763FA73DD47D865714B443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3ACE7633E32EE84469CFC1BF77BE59C /* Sunwing.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sunwing/Sunwing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sunwing/Sunwing-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sunwing/Sunwing.modulemap";
+				PRODUCT_MODULE_NAME = Sunwing;
+				PRODUCT_NAME = Sunwing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80A86AB1CF8425929EC99B8DFDC30830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8D00D126AE4CF2649D2C04F8B15C03 /* Sunwing.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sunwing/Sunwing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sunwing/Sunwing-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sunwing/Sunwing.modulemap";
+				PRODUCT_MODULE_NAME = Sunwing;
+				PRODUCT_NAME = Sunwing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B92F7079A59208BE558292241B27F6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AAD9371C94565AF94930D24DC61862C /* Pods-Sunwing_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sunwing_Example/Pods-Sunwing_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sunwing_Example/Pods-Sunwing_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4653167E131D22784BD0675EB331026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F80C4A0D9B841D6DEFF1267A1F5B4F /* Pods-Sunwing_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sunwing_Tests/Pods-Sunwing_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sunwing_Tests/Pods-Sunwing_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E06337B83A477280516BED8014D45BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60D996C5563365CBE2BFEB048A8D97C /* Pods-Sunwing_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sunwing_Tests/Pods-Sunwing_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sunwing_Tests/Pods-Sunwing_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F63E21FF6B0CA9A37911A22EAAE78BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B539AA57DE24AD06907659B65798EF4 /* Pods-Sunwing_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sunwing_Example/Pods-Sunwing_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sunwing_Example/Pods-Sunwing_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B34CB6803CA88E8562D5A7D3477E17B /* Build configuration list for PBXNativeTarget "Sunwing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A86AB1CF8425929EC99B8DFDC30830 /* Debug */,
+				4B7D910EA0763FA73DD47D865714B443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8461EFBF50E8EA98FBBE8525DA589858 /* Build configuration list for PBXNativeTarget "Pods-Sunwing_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06337B83A477280516BED8014D45BBE /* Debug */,
+				C4653167E131D22784BD0675EB331026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D869A3D2F25C9ED5FEAA0D50AAA3BE35 /* Build configuration list for PBXNativeTarget "Pods-Sunwing_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92F7079A59208BE558292241B27F6E6 /* Debug */,
+				F63E21FF6B0CA9A37911A22EAAE78BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

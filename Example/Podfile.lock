@@ -1,0 +1,16 @@
+PODS:
+  - Sunwing (0.0.1)
+
+DEPENDENCIES:
+  - Sunwing (from `../`)
+
+EXTERNAL SOURCES:
+  Sunwing:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Sunwing: 92c9cbea29506240a71c7a6740fd95eac602fb97
+
+PODFILE CHECKSUM: 761de2bdcca0a8177e87056add5f95b20ef4ca10
+
+COCOAPODS: 1.10.0

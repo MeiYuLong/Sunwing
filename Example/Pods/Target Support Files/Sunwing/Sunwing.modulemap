@@ -1,0 +1,6 @@
+framework module Sunwing {
+  umbrella header "Sunwing-umbrella.h"
+
+  export *
+  module * { export * }
+}
