@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Sunwing_Example' do
+  pod 'Sunwing', :path => '../'
+
+  target 'Sunwing_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
